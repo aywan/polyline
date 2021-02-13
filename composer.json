@@ -1,0 +1,26 @@
+{
+    "name": "aywan/polyline",
+    "type": "library",
+    "description": "Google-esque polyline encoder/decoder implementation in Php.",
+    "require": {
+        "php": ">=7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ivan Bragin",
+            "email": "aywan@aywan.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "aywan\\Polyline\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
